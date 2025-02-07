@@ -1,0 +1,21 @@
+2025-02-07 16:40:54,211 - BankServer - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-02-07 16:45:58,088 - BankServer - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-02-07 16:47:02,742 - BankServer - ERROR - Database connection failed: ('IM002', '[IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified (0) (SQLDriverConnect)')
+2025-02-07 16:48:15,712 - BankServer - INFO - Database connected successfully
+2025-02-07 16:48:15,746 - BankServer - INFO - Loaded 27 accounts from database
+2025-02-07 16:48:15,746 - BankServer - INFO - Initialized proxy client with timeout 1000s
+2025-02-07 16:48:15,746 - BankServer - INFO - Bank server initialized on 10.0.1.71:65525
+2025-02-07 16:48:15,758 - BankServer - INFO - Server running on 10.0.1.71:65525
+2025-02-07 16:49:46,901 - BankServer - INFO - New connection from ('10.0.1.46', 50957)
+2025-02-07 16:49:51,501 - BankServer - INFO - Received command from ('10.0.1.46', 50957): ac
+2025-02-07 16:49:51,501 - BankServer - INFO - Attempting to create account 48321
+2025-02-07 16:49:51,635 - BankServer - INFO - Successfully created account 48321
+2025-02-07 16:49:52,687 - BankServer - INFO - Accounts saved to database
+2025-02-07 16:51:48,547 - BankServer - INFO - Received command from ('10.0.1.46', 50957): ba
+2025-02-07 16:52:03,594 - BankServer - INFO - Received command from ('10.0.1.46', 50957): AD 48321/10.0.1.71 100
+2025-02-07 16:52:03,603 - BankServer - INFO - Processing local deposit of 100 to account 48321
+2025-02-07 16:52:03,682 - BankServer - INFO - Successfully deposited 100 to account 48321
+2025-02-07 16:52:04,829 - BankServer - INFO - Accounts saved to database
+2025-02-07 16:52:08,513 - BankServer - INFO - Received command from ('10.0.1.46', 50957): BA
+2025-02-07 16:52:13,133 - BankServer - ERROR - Error handling client ('10.0.1.46', 50957): 0 bytes read on a total of undefined expected bytes
+2025-02-07 16:52:13,133 - BankServer - INFO - Connection with ('10.0.1.46', 50957) closed
